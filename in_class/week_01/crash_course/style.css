@@ -1,0 +1,28 @@
+body {
+    background: #c53efa;
+    color: #fff838;
+}
+
+a {
+    color: #0c13cf;
+}
+
+a:hover {
+    background: black;
+    color: white;
+}
+
+header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div#container {
+    background-color: red;
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
