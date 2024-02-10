@@ -1,51 +1,74 @@
 /* Basic CSS resets -- leveling slight inconsistencies in browsers */
-html, body {
-	margin:0px;
-	padding:0px;
-	height:100%;
+html,
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
 }
 
 html {
 	/* Standard text-settings below */
 	font-size: 1em;
-    line-height: 1.4em;
+	line-height: 1.4em;
 }
 
 body {
 	font-family: 'Courier New', Courier, monospace;
-	background: #fcc5ee;
+	background: #f73239;
 	color: #fa7d9a;
 	margin: 10px;
 }
 
 
 #container {
-	border: 1px solid rgb(50,50,50);
-	background: #9ff5bc;
-	width: 60%;
+	border: 1px solid rgb(50, 50, 50);
+	background: #ecd5e7;
+	width: 800px;
 	margin: auto;
 }
 
 /* nested selector*/
-nav ul{
+nav ul {
 	list-style: none;
 	padding-left: 0px;
+	margin-left: 10px;
 }
 
-nav a{
+nav a {
 	color: #ff0026;
 }
 
-nav a:hover{
-	color:rgb(76,40,25);
+nav a:hover {
+	color: rgb(76, 40, 25);
 }
 
-figure img{
+figure img {
 	width: 100%;
+	border: 5px groove #6F2232;
 }
 
-figcaption{
+figcaption {
 	font-size: 0.75em;
 }
 
+p {
+	margin: auto;
+	padding: 1em;
+}
 
+footer p {
+	margin-left: 5px;
+}
+
+header h1,
+h2 {
+	margin-left: 10px;
+}
+
+#bio-text {
+	background: white;
+	margin: auto;
+	padding: 1em;
+	width: 85%;
+	border: 5px groove #6F2232;
+}
